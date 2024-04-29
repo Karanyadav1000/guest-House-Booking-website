@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/main.css">
+   
+</head>
+
+<body>
+    <div id="header">
+        <img src="/css/nitt.png" style="position: relative;bottom: 13%;position: relative;bottom:13%;width:100%;overflow:hidden;">
+    </div>
+    <header>
+        <nav>
+          <a href="index.hbs">Home</a>
+          <a href="about.hbs">About</a>
+          <a href="#">Gallery</a>
+          <a href="login.hbs">Login</a>
+          <a href="#">Signup</a>
+          <a href="contact.hbs">Contact Us</a>
+        </nav>
+      </header>
+      <div class="login-container">
+        <form class="login-form" action="/login" method="POST">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>made by &hearts; </p>
+            <p>by Karan yadav</p>
+        </div>
+    </footer>
+</body>
+
+</html>

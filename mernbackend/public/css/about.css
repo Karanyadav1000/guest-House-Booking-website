@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:  rgb(186, 121, 247);
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.guest-house {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center; /* Vertically center the items */
+}
+
+.guest-house img {
+    width: 50%; /* Adjust the width of the image */
+    max-height: 200px; /* Limit the height of the image */
+    margin-right: 20px; /* Add space between image and content */
+}
+
+.guest-house-content {
+    width: 50%; /* Adjust the width of the content */
+}
+
+#heading {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-decoration: dashed;
+}
+
+.guest-house-content h2 {
+    margin-top: 0;
+}
+
+.guest-house-content p {
+    margin-bottom: 10px;
+}
