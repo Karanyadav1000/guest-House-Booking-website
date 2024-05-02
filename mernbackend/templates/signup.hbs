@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-        <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/main.css">
+   
 </head>
+
 <body>
-    
-<h1>Sign Up</h1>
-
-    <form action="/signup" method="post" >
-        <input placeholder="Name" name="name" type="text">
-        <br>
-        <input placeholder="Password" name="password" type="password">
-        <br>
-        <input class="sub" type="submit">
-    </form>
-
-       <a href="/">Go back to login page</a>
-
+    <div id="header">
+        <img src="/css/nitt.png" style="position: relative;bottom: 13%;position: relative;bottom:13%;width:100%;overflow:hidden;">
+    </div>
+    <header>
+        <nav>
+           <a href="/home" >Home</a>
+          <a href="/about" >About</a>
+          <a href="#">Gallery</a>
+          <a href="/login">Login</a>
+          <a href="/signup">Signup</a>
+          <a href="/contact">Contact Us</a>
+        </nav>
+      </header>
+      <div class="login-container">
+        <form class="login-form" action="/signup" method="POST">
+    <h2>Signup</h2>
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+    <button type="submit">Signup</button>
+</form>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>made by &hearts; </p>
+            <p>by Karan yadav</p>
+        </div>
+    </footer>
 </body>
+
 </html>
+

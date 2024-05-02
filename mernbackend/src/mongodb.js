@@ -19,6 +19,8 @@ const logInSchema=new mongoose.Schema({
     }
 })
 
+
 const LogInCollection=new mongoose.model('LogInCollection',logInSchema)
 
 module.exports=LogInCollection
+
